@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.color-table {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+.color-row {
+    transition: border 0.3s ease-in-out;
+}
+
+.color-row:hover {
+    border: 2px solid #e74c3c;
+}
